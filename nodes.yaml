@@ -1,0 +1,17 @@
+---
+- identity: acme-node-000
+  endpoints:
+    - "tcps://splinterd-node-acme:8044"
+  display_name: Node acme-node-000
+  keys:
+    - 02d5827635fcd29b8674212f012577022ac72311f658c86412d4eb658d5006cf34
+  metadata:
+    organization: ACME Corporation
+- identity: bubba-node-000
+  endpoints:
+    - "tcps://splinterd-node-bubba:8044"
+  display_name: bubba-node-000
+  keys:
+    - 0343889a064fb270cad3a9cd1ebc0db06e8ebcc3735d8d910ae135bfd887a63fd5
+  metadata:
+    organization: Bubba Bakery
